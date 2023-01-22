@@ -1,6 +1,8 @@
-n range(10):
-    for y in range(10):
-        if x == 8 and y == 9:
-            print('{}{}'.format(x, y))
-        elif x != y and x < y:
-            print('{}{}, '.format(x, y), end='')
+#!/usr/bin/python3
+for i in range(0, 8):
+    for j in range(0, 10):
+        if i < j:
+            print('{}{},'.format(i, j), end=" ")
+        else:
+            continue
+print(89)
